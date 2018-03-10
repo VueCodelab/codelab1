@@ -3,7 +3,7 @@
     <h1>List</h1>
     <input type="text" v-bind="text" />
     <ul>
-      <li v-for="item in items">
+      <li v-for="item in items" :key="item.key">
         {{ item }}
       </li>
       <div>{{ text }}</div>
@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'List',
-  data() {
+  data () {
     return {
       text: '',
       items: ['primer item']

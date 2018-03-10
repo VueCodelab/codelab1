@@ -5,7 +5,6 @@ import Home from '@/components/Home'
 import List from '@/components/List'
 import Form from '@/components/Form'
 
-
 Vue.use(Router)
 
 export default new Router({
