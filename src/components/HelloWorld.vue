@@ -1,6 +1,92 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <br>
+    <h2>Participantes</h2>
+    <p>{{ participantes }}</p>
+
+    <h2>Componentes creado</h2>
+    <ul>
+      <li>
+        <a
+          href="https://vuejs.org"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://forum.vuejs.org"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://chat.vuejs.org"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/vuejs"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <br>
+      <li>
+        <a
+          href="http://vuejs-templates.github.io/webpack/"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+            <br>
+      <li>
+        <a
+          href="http://vuejs-templates.github.io/webpack/"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <br>
+      <li>
+        <a
+          href="http://vuejs-templates.github.io/webpack/"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <br>
+      <li>
+        <a
+          href="http://vuejs-templates.github.io/webpack/"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+      <br>
+      <li>
+        <a
+          href="http://vuejs-templates.github.io/webpack/"
+          target="_blank"
+        >
+          Escriba su nombre aqui y enlace a su componente 
+        </a>
+      </li>
+    </ul>
+
+
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -88,9 +174,15 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Bienvenido al experimento CodeLab',
+      participantes: "Brian, Matias, Gabriel, Leandro, Felix, Ricardo, Gustavo, Leo, Luis"
     }
+  },
+  method: {},
+  mounted(){
+    msg: "hola mundo"
   }
+
 }
 </script>
 
