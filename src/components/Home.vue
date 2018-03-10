@@ -18,7 +18,6 @@
          <li><a href="https://github.com/soyFelixBarros"></a>Felix</li>
          <li><a href="https://github.com/Briant-Moreira"></a>Brian</li>
        </ul>
-      Brain, Matias, Gabriel, Leandro, Felix, Roberto, Gustavo, Leonardo, Luis
     </h4>
     <br>
     <ul>
