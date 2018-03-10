@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '@/components/Home'
+import ChuckJoke from '@/components/ChuckJoke'
 import List from '@/components/List'
 import Form from '@/components/Form'
 
@@ -15,6 +16,10 @@ export default new Router({
       component: Home
     },
     {
+      path: '/chuck',
+      name: 'ChuckJoke',
+      component: ChuckJoke
+    },{
       path: '/list',
       name: 'List',
       component: List
