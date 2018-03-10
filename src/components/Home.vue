@@ -1,6 +1,84 @@
 <template>
   <div class="home">
     <h1>Home</h1>
+    <h2>Participantes</h2>
+    <br>
+    <h4>Brain, Matias, Gabriel, Leandro, Felix, Roberto, Gustavo, Leonardo, Luis</h4>
+    <br>
+    <ul>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          target="_blank"
+        >
+          Reemplace por el nombre y enlace a su componente
+        </a>
+      </li>
+    </ul>
   </div>
 </template>
 
