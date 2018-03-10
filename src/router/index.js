@@ -19,7 +19,8 @@ export default new Router({
       path: '/chuck',
       name: 'ChuckJoke',
       component: ChuckJoke
-    },{
+    },
+    {
       path: '/list',
       name: 'List',
       component: List
