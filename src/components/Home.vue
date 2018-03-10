@@ -9,14 +9,14 @@
     <h4>
        <ul>
          <li><a href="https://github.com/learod">Leandro</a></li>
-         <li><a href="https://github.com/leferreyra"></a>Leonardo</li>
-         <li><a href="https://github.com/matiasmasca"></a>Matías</li>
-         <li><a href="https://github.com/ricardogauto11"></a>Ricardo</li>
-         <li><a href="https://github.com/the-guish"></a>Luis</li>
-         <li><a href="https://github.com/gabrielc63"></a>Gabriel</li>
-         <li><a href="https://github.com/mrgj"></a>Gustavo</li>
-         <li><a href="https://github.com/soyFelixBarros"></a>Felix</li>
-         <li><a href="https://github.com/Briant-Moreira"></a>Brian</li>
+         <li><a href="https://github.com/leferreyra">Leonardo</a></li>
+         <li><a href="https://github.com/matiasmasca">Matías</a></li>
+         <li><a href="https://github.com/ricardogauto11">Ricardo</a></li>
+         <li><a href="https://github.com/the-guish">Luis</a></li>
+         <li><a href="https://github.com/gabrielc63">Gabriel</a></li>
+         <li><a href="https://github.com/mrgj">Gustavo</a></li>
+         <li><a href="https://github.com/soyFelixBarros">Felix</a></li>
+         <li><a href="https://github.com/Briant-Moreira">Brian</a></li>
        </ul>
     </h4>
     <br>
