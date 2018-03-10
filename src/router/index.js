@@ -3,6 +3,8 @@ import Router from 'vue-router'
 
 import Home from '@/components/Home'
 import List from '@/components/List'
+import Form from '@/components/Form'
+
 
 Vue.use(Router)
 
@@ -17,6 +19,11 @@ export default new Router({
       path: '/list',
       name: 'List',
       component: List
+    },
+    {
+      path: '/form',
+      name: 'Form',
+      component: Form
     }
   ]
 })

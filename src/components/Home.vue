@@ -23,12 +23,7 @@
     <br>
     <ul>
       <li>
-        <a
-          href="#"
-          target="_blank"
-        >
-          Reemplace por el nombre y enlace a su componente
-        </a>
+        @soyFelixBarros -> <a href="/#/form" target="_blank">Form</a>
       </li>
       <li>
         <a
