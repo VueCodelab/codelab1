@@ -1,3 +1,4 @@
+// adaptado de http://taha-sh.com/blog/building-an-awesome-reusable-autocomplete-input-component-in-vue-21-part-one
 <template lang="html">
   <div>
     <div>
