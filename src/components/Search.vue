@@ -9,7 +9,8 @@
           @keydown.up="moveUp"
           @keydown.enter="select">
         <ul v-show="isOpen" class="options-list">
-          <li  v-for="(option, index) in fOptions" v-bind:key="option.title" @mouseenter="highlightedPosition = index" @mousedown="select">
+          <li  v-for="(option, index) in fOptions" v-bind:key="option.title" @mouseenter="highlightedPosition = index" @mousedown="select"
+            :class="{'highlighted': index === highlightedPosition}">
             <article>
               <figure>
                 <p class="thumbnail">
@@ -40,19 +41,19 @@ export default {
       options: [{
         title: 'First Scene',
         description: 'lorem ipsum dolor amet.',
-        thumbnail: 'http://lorempicsum.com/nemo/200/200/1'
+        thumbnail: 'http://lorempicsum.com/futurama/64/64/1'
       }, {
         title: 'Second Scene',
-        description: 'lorem ipsum dolor amet.',
-        thumbnail: 'http://lorempicsum.com/nemo/200/200/2'
+        description: 'Vivamus auctor quam sed',
+        thumbnail: 'http://lorempicsum.com/futurama/64/64/2'
       }, {
         title: 'Third Scene',
-        description: 'lorem ipsum dolor amet.',
-        thumbnail: 'http://lorempicsum.com/nemo/200/200/3'
+        description: 'Cras pretium libero eget orci',
+        thumbnail: 'http://lorempicsum.com/futurama/64/64/3'
       }, {
         title: 'Fourth Scene',
-        description: 'lorem ipsum dolor amet.',
-        thumbnail: 'http://lorempicsum.com/nemo/200/200/4'
+        description: 'Donec finibus nunc nec',
+        thumbnail: 'http://lorempicsum.com/futurama/64/64/4'
       }]
     }
   },
@@ -64,17 +65,29 @@ export default {
   },
   methods: {
     onInput (value) {
-      console.log('keyword = ' + this.keyword + ' | isOpen = ' + this.isOpen)
       this.highlightedPosition = 0
-      this.isOpen = true
+      this.isOpen = !!value
+      console.log('keyword = ' + this.keyword + ' | isOpen = ' + this.isOpen + ' | fOptions.length ' + this.fOptions.length)
+    },
+    moveDown () {
+      if (!this.isOpen) {
+        return
+      }
+      this.highlightedPosition =
+        (this.highlightedPosition + 1) % this.fOptions.length
+    },
+    moveUp () {
+      if (!this.isOpen) {
+        return
+      }
+      this.highlightedPosition = this.highlightedPosition - 1 < 0 ? this.fOptions.length - 1 : this.highlightedPosition - 1
     },
     select () {
-      /*
       const selectedOption = this.fOptions[this.highlightedPosition]
       this.$emit('select', selectedOption)
       this.isOpen = false
       this.keyword = selectedOption.title
-      */
+      console.log('Selected "' + selectedOption.title + '"')
     }
   }
 }
