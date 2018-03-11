@@ -29,7 +29,7 @@
         <a href="/#/chuck">Chuk Jokes</a>
       </li>
       <li>
-        <a href="/#/list">List</a>
+        <a href="/#/search">Search</a>
       </li>
       <li>
         <a
