@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/980879/580/385/m1/fpnw/wm0/start!12-01-01-.jpg?1455179257&s=df9501de82074ffe2a7643b7fd1f2040">
     <h1>CodeLab v2 - Jugando con Vue.js</h1>
     <h2>9 de Marzo de 2018</h2>
     <h2>En la ciudad de Corrientes - Argentina</h2>
@@ -25,20 +26,10 @@
         @soyFelixBarros -> <a href="/#/form" target="_blank">Form</a>
       </li>
       <li>
-        <a
-          href="#"
-          target="_blank"
-        >
-          Reemplace por el nombre y enlace a su componente
-        </a>
+        <a href="/#/chuck">Chuk Jokes</a>
       </li>
       <li>
-        <a
-          href="#"
-          target="_blank"
-        >
-          Reemplace por el nombre y enlace a su componente
-        </a>
+        <a href="/#/list">List</a>
       </li>
       <li>
         <a
